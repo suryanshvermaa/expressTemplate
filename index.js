@@ -2,8 +2,8 @@ const express=require('express');
 require('dotenv').config();
 const cookieParser = require('cookie-parser');
 const cors=require('cors');
-const {dbConnect}=require('./dbConnection/db.js');
-const testingRouter=require('./routes/testingRoute.js')
+const {dbConnect}=require('./src/dbConnection/db.js');
+const testingRouter=require('./src/routes/testingRoute.js')
 const app=express();
 
 //db connection
